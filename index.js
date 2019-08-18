@@ -5,7 +5,7 @@ function add(a, b) {
 
 function subtract(a, b) {
   var reslt = (a - b)
-  return reslt 
+  return reslt
 }
 
 function multiply(a, b) {
