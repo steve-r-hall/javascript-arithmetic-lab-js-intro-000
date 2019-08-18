@@ -17,3 +17,21 @@ function divide(a, b) {
   var dividend = (a / b)
   return dividend
 }
+
+function inc(n) {
+  return n++
+}
+
+function dec(n) {
+  return n--
+}
+
+function makeInt(n) {
+  var retval = parseInt(n, 10)
+  return retval
+}
+
+function preserveDecimal(n) {
+  var retval = parseFloat(n)
+  return retval
+}
